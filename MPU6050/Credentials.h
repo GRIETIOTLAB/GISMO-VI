@@ -1,7 +1,7 @@
-#define FIREBASE_HOST "radsproject.firebaseio.com" //Do not include https:// in FIREBASE_HOST
-#define FIREBASE_AUTH "4niCZOkFw4C2WVZf04gk9PrQx9isMG7NbCva9CmU"
-#define WIFI_SSID "IOTLAB"
-#define WIFI_PASSWORD "Rabindranath@Tagore1234#"
+#define FIREBASE_HOST "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" //Do not include https:// in FIREBASE_HOST
+#define FIREBASE_AUTH "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#define WIFI_SSID "xxxxxxxxxxxxxxxxx"
+#define WIFI_PASSWORD "xxxxxxxxxxxxxxxxxxxxxx"
 #include <Wire.h>
 #include "SSD1306.h" 
 #include "FirebaseESP32.h"
