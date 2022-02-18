@@ -1,6 +1,7 @@
 The folder contains code for the following:
 - Onboard LED at GPIO 2 (Digital output example)
 - Onboard relay at GPIO 13 (Digital output example)
+- Buzzer at GPIO32 (Digital output example)
 - Serial communication code
 - Magnetic switch at GPIO 16 (Digital input example)
 - Soil Moisture Sensor at GPIO 34 (Analog input example)
