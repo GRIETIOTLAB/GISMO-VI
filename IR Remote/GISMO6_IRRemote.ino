@@ -51,22 +51,26 @@ void loop() {
     switch(btnValue){
       case 16718055:
       case 16736925:
+      case 16712445:  
       digitalWrite(2,HIGH);
       digitalWrite(13,HIGH);
       Serial.println("Up arrow");
       break;
       case 16730805:
       case 16754775:
+      case 16720605:  
       digitalWrite(2,LOW);
       digitalWrite(13,LOW);
       Serial.println("Down arrow");
       break;
       case 16738455:
       case 16728765:
+      case 16753245:  
       Serial.println("Local Control");
       break;
       case 16756815:
       case 16732845:
+      case 16769565:
       Serial.println("Cloud Control");
       break;
       default:
