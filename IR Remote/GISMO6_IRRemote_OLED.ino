@@ -63,6 +63,7 @@ void loop() {
     switch(btnValue){
       case 16718055:
       case 16736925:
+      case 16712445:  
       Serial.println("Up arrow");
       if(controlMode == 0){
       digitalWrite(2,HIGH);
@@ -72,6 +73,7 @@ void loop() {
       break;
       case 16730805:
       case 16754775:
+      case 16720605:
       Serial.println("Down arrow");
       if(controlMode == 0){
       digitalWrite(2,LOW);
@@ -81,12 +83,14 @@ void loop() {
       break;
       case 16738455:
       case 16728765:
+      case 16753245:  
       Serial.println("Local Control");
       controlMode = 0;
       modeDisplay = "LOCAL";
       break;
       case 16756815:
       case 16732845:
+      case 16769565:  
       Serial.println("Cloud Control");
       controlMode = 1;
       modeDisplay = "CLOUD";
