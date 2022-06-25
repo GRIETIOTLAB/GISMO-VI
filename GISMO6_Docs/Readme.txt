@@ -4,6 +4,17 @@ This folder contains the following docs related to GISMO-VI:
 - Introduction PPT
 - Getting started PPT
 
+Making Arduino IDE ready to program ESP32:
+
+https://dl.espressif.com/dl/package_esp32_index.json
+
+Copy the above URL into Arduino IDE: File - Preferences - Settings - Additional Boards Manager URL
+
+
+
+
 Use the link below for instructions on making Arduino IDE ready to program ESP32:
 
 https://circuitdigest.com/microcontroller-projects/programming-esp32-with-arduino-ide
+
+
