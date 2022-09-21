@@ -57,4 +57,6 @@ void OLEDUpdate(){
   display.drawString(30,0,d);
   display.display();
 }
+void loop(){
+}
   
