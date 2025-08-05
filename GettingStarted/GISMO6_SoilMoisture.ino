@@ -10,9 +10,9 @@ void loop() {
   int smValue = 4095 - analogRead(34);
   Serial.print("Soil moisture value = ");
   Serial.println(smValue);
-  if(smvalue < threshold)
+  if(smValue < threshold)
   {
-    digititalWrite(2,HIGH);
+    digitalWrite(2,HIGH);
     Serial.println("Soil dry");
   }
   else
@@ -20,6 +20,8 @@ void loop() {
     digitalWrite(2,LOW);
     Serial.println("Soil wet");
   }
+  Serial.println();
   delay(1000);
 }
+
 
